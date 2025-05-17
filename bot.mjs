@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 const TELEGRAM_TOKEN = '7841228174:AAE1noHGlGrvgpqcG8dVe3I5IeMxiBx0-nM';
-const OPENAI_API_KEY = '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'
+const OPENAI_API_KEY = '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'
 const TELEGRAM_API = https://api.telegram.org/bot${TELEGRAM_TOKEN};
 
 export default async function handler(req, res) {
